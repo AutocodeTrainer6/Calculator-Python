@@ -3,3 +3,6 @@ def add(a, b):
     
 def test_add_function_with_int():
     assert add(5, 8) == 13
+
+def test_add_function_with_not_equal():
+    assert add(5, 8) != 13
